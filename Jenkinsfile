@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'python'
+        label 'python3.11'
     }
     stages {
         stage('Run Python Script') {
